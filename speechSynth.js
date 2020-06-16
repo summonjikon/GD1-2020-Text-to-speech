@@ -20,6 +20,7 @@ inputForm.onsubmit = function(event) {
     sayTheWord(inputTxt.value);
 }
 play.addEventListener('click', () => {sayTheWord(inputTxt.value);});
+play2.addEventListener('click', () => {sayTheWord("Carmine Asks: Are you THE Marcus Fenix? The one that fought at Asho Fields? Marcus responds: Yep.");});
 pause.addEventListener('click', () => {synth.pause();});
 resume.addEventListener('click', () => {synth.resume();});
 
